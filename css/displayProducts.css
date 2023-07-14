@@ -1,0 +1,14 @@
+.section_one{
+    background-image: url(../images/workplace-business-modern-male-accessories-laptop-white_155003-1722.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+    
+}
+
+.section_one .layer{
+    height: 60vh;
+background-color: rgba(0, 0, 0, 0.411);
+
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Display Products</title>
+    <link href="css/displayProducts.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <section class="section_one">
+        <div class="layer">
+
+        </div>
+
+    </section>
+<!-- section two-->
+    <div class="section_two my-5">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12 shadow">
+                    <h3 class="text-center">Add New Product</h3>
+                    <input type="text" id="productName3" class="form-control my-2">
+                    <input type="number" id="productPrice3" class="form-control  my-2">
+                    <textarea id="productDescription3" class="form-control  my-2"></textarea>
+                    <button class="btn btn-dark  my-2 text-white" onclick="getProduct3()">Add New Product</button>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!--end of section two-->
+
+<!--section three-->
+    <section class="section_three">
+        <div class="container">
+            <div class="row" id="product_card">
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <script src="js/displayProducts.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
